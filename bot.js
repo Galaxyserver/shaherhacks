@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = 's'.toLowerCase();
-const token = 'token';
+const token = 'NDYzMDkzNTU3OTI2OTUyOTgw.Dxd9tA.ciCf-_tqJ-7NPOxpuIUEGh3vnoI';
 client.on('message', message => {
     let args = message.content.split(' ');
     if(args[0].toLowerCase() === (prefix + 'shaher')){
